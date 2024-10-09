@@ -163,6 +163,7 @@ body {
 .cart{
     color: white;
     display: flex;
+    position: relative
 }
 .cart_quantity_count{
     margin-top: 16px;
@@ -185,8 +186,6 @@ body {
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
-
-    
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
@@ -215,7 +214,7 @@ body {
     background-color: #45a049;
   }
   
-  .product-button.added-to-cart {
+  .added-to-cart {
     background-color: grey; /* Grey when product is added */
   }
   @media (max-width: 1200px) {
